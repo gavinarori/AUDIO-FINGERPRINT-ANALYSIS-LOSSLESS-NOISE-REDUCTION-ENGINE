@@ -22,7 +22,7 @@
  * ============================================================
  */
 
-import type { MonoAudio } from "./audio-fingerprint";
+import type { MonoAudio } from "./lib/audio/audio-fingerprint";
 
 // ─────────────────────────────────────────────────────────────
 // TYPES
