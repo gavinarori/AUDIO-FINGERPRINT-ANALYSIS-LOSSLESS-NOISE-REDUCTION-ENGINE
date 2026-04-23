@@ -43,7 +43,7 @@ import {
   type RawAudio,
   type MonoAudio,
   type ProcessingResult,
-} from "./audio-fingerprint";
+} from "./lib/audio/audio-fingerprint";
 
 import {
   applyFIRFilter,
@@ -57,7 +57,7 @@ import {
   printIIRReport,
   DEFAULT_IIR_SPEC,
   type IIRFilterResult,
-} from "./iir-filter";
+} from "./lib/audio/Iir-filter";
 
 // ─────────────────────────────────────────────────────────────
 // TYPES
