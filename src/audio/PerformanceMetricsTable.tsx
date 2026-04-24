@@ -1,4 +1,4 @@
-import { ProcessingStep } from '../../lib/audio/utils';
+import {type ProcessingStep } from '../../lib/audio/utils';
 
 interface PerformanceMetricsTableProps {
   steps: ProcessingStep[];
