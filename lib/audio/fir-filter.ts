@@ -22,7 +22,13 @@
  * ============================================================
  */
 
-import type { MonoAudio } from "./lib/audio/audio-fingerprint";
+
+export interface MonoAudio {
+  samples: Float32Array;
+  sampleRate: number;
+  duration: number;
+}
+
 
 // ─────────────────────────────────────────────────────────────
 // TYPES

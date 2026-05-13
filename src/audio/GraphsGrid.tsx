@@ -18,7 +18,7 @@ interface GraphsGridProps {
 /**
  * Safe max absolute value (no spread operator)
  */
-function getMax(arr?: number[]) {
+function getMax(arr?: ArrayLike<number>) {
   if (!arr || arr.length === 0) return 0;
 
   let max = 0;
@@ -32,7 +32,7 @@ function getMax(arr?: number[]) {
 /**
  * Safe RMS calculation
  */
-function getRMS(arr?: number[]) {
+function getRMS(arr?: ArrayLike<number>) {
   if (!arr || arr.length === 0) return 0;
 
   let sum = 0;
